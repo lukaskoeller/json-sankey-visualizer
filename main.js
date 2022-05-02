@@ -1,6 +1,13 @@
 import './style.css'
 
 document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+  <h1>json-sankey-visualizer</h1>
+  <main>
+    <section class="json">
+      JSON
+    </section>
+    <section class="sankey">
+      SANKEY
+    </section>
+  </main>
 `
